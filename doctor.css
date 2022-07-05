@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+/* Start navbar*/
+
+.first-nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -6px;
+    margin-bottom: -4px;
+    background-color: #e6e6e6 !important;
+}
+
+.nav-terms {
+    margin-left: 41px;
+}
+
+.navbar-light .navbar-nav .link-terms {
+    color: #4bbcd7;
+    transition: 0.5s;
+}
+
+.navbar-light .navbar-nav .link-privacy {
+    color: #4bbcd7;
+    transition: 0.5s;
+    border-left: rgba(0, 0, 0, 0.425) solid 1px;
+}
+
+.navbar-light .navbar-nav .link-legal {
+    color: #4bbcd7;
+    transition: 0.5s;
+    border-left: rgba(0, 0, 0, 0.425) solid 1px;
+}
+
+.navbar-light .navbar-nav .link-email {
+    color: #4bbcd7;
+    transition: 0.5s;
+    border-left: 1px solid #717171;
+}
+
+.navbar-light .navbar-nav .nav-phone {
+    margin-left: 78px;
+    padding-left: 60px;
+    color: #4bbcd7;
+    transition: 0.5s;
+}
+
+.nav-item {
+    padding: 0px;
+}
+
+.positions {
+    z-index: 100;
+    position: top fixed;
+}
+
+.title-nav {
+    margin-left: 21px;
+    padding: 9px;
+    text-align: center;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style-type: none;
+}
+
+.main-nav .title-nav {
+    padding: 6px 0;
+}
+
+.main-nav .title-nav .small {
+    position: relative;
+    display: block;
+    padding: 4px 0;
+    font-family: Lato, sans-serif;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.icon-all {
+    color: #4bbcd7;
+    margin-bottom: 10px;
+}
+
+
+.main-nav .title-nav .small::after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #4bbcd7;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.main-nav .title-nav .small:hover {
+    color: #3b3d3d;
+}
+
+.main-nav .title-nav .small:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.logo {
+    margin-left: 8px;
+    padding: 0px;
+    text-align: center;
+}
+
+.pages {
+    margin-left: 40px;
+}
+
+
+/* End Navbar */
+
+
+/* Start Content */
+
+.row-chief {
+    border-top: 4px solid #0390b2;
+}
+
+.title-chief-doctors {
+    display: block;
+    margin-right: 690px;
+    margin-bottom: 24px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.image-chief-doctors {
+    border: 5px solid #0390b2;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.div-image-chief-doctors {
+    margin-left: 17px;
+    margin-top: 25px;
+}
+
+.div-title-doctor {
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.name-title-doctor {
+    background: #dfdddd;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.icon-name-doc {
+    color: aliceblue;
+    margin: 0px;
+    padding: 13px;
+    background: #4bbcd7;
+    font-size: 18px;
+}
+
+.span-card-doc {
+    color: gray;
+    font-weight: 400;
+}
+
+.paragragh-card-doc {
+    line-height: 24px;
+    color: gray;
+    font-weight: 400;
+    font-family: 'Baloo Tamma 2', cursive;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #efe9e9;
+}
+
+.gastroenterologist {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 17px;
+    color: rgb(184, 184, 184);
+}
+
+.lable-email-card {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 20px;
+    color: rgb(75, 75, 75);
+}
+
+.link-email-card {
+    color: #4bbcd7;
+    transition: 0.5s;
+    font-size: 18px;
+    margin-left: 11px;
+}
+
+.link-email-card:hover {
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+    transition: 0.5s;
+    font-size: 18px;
+    margin-left: 11px;
+}
+
+.social-buttons button {
+    margin-right: 10px
+}
+
+.neo-button {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #5bc6ff, #4da7db);
+}
+
+.neo-button:hover {
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #4da7db, #5bc6ff);
+    box-shadow: inset 6px 6px 13px #489dcf, inset -6px -6px 13px #62d5ff
+}
+
+.neo-button .fa {
+    color: #eee
+}
+
+
+.title-specialists {
+    display: block;
+    margin-right: 690px;
+    margin-bottom: 24px;
+    margin-left: 10px;
+}
+
+.dt-sc-hr {
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAKAQMAAABR1Za6AAAABlBMVEUAAADMzMzIT8AyAAAAAXRSTlMAQObYZgAAABlJREFUCNdjaFFgcBJgUORgEGhh4HBC4wIAPnED+6HZTakAAAAASUVORK5CYII=) repeat-x;
+    height:10px;
+    width:100%;
+    clear:both;
+    display:block;
+    float:left;
+    margin:40px 0;
+    position:relative;
+    z-index:1;
+}
+
+.title-physicians {
+    display: block;
+    margin-right: 690px;
+    margin-bottom: 24px;
+    margin-left: 10px;
+}
+
+.table {
+    border: 1px solid #b1b0af;
+    margin-left: 14px;
+}
+
+.name-doctor {
+    text-decoration: none;
+    color: #4bbcd7;
+    transition: 0.5s;
+    
+}
+
+.name-doctor:hover {
+    text-decoration: none;
+    color: #383838;
+}
+
+.icon-doc-table {
+    margin-right: 5px;
+}
+
+
+.details-appointment {
+    margin-top: 5px;
+    color: #4bbcd7;
+    background-color: #00000000;
+    padding: 11px;
+    border-radius: 5px;
+    border: #4bbcd7 1px solid;
+    transition: 0.5s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.details-appointment:hover {
+    transition: .08s;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4bbcd7;
+    transition: 0.5s;
+}
+
+
+.disc-after-table {
+    margin-left: 14px; 
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(126, 125, 125);
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.row-notes {
+    width: 95%;
+}
+
+.part-note {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-left: #4bbcd7 solid 3px;
+    background-color: #e9f7f7;
+}
+
+.note-text {
+    padding: 34px;
+    float: left;
+}
+
+.link-note {
+    float: left;
+    margin-top: 50px;
+    margin-left: 106px;
+}
+
+.discrip-note {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+}
+
+.discripe-note {
+    font-size: 15px;
+}
+
+.purchase-now {
+    color: #4bbcd7;
+    background-color: #00000000;
+    padding: 14px;
+    border-radius: 5px;
+    border: #4bbcd7 1px solid;
+    transition: .05s;
+}
+
+.purchase-now:hover {
+    transition: .08s;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4bbcd7;
+    transition: .05s;
+}
+
+.part-notes:after {
+    border-left-color: #e2f8f4;
+    content: "";
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 35px solid;
+    right: -35px;
+    width: 0;
+    height: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute
+}
+
+
+
+/* End Content */
+
+
+
+/* Start Footer */
+
+.page-footer {
+    background: #4bbcd7;
+    margin-top: 50px;
+}
+
+
+.footer-copyright {
+   background-color: #0390b2;
+}
+
+.div-hospital {
+    background-image: url(images/hospital.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+/* End Footer
